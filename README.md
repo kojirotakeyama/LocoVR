@@ -1,5 +1,5 @@
 # Loco3D: Indoor Multiuser Locomotion 3D Dataset
- ![demo](./assets/dataset_overview.jpg)
+ ![demo](./assets/scenes_in_loco3d_v3.png)
 
 ## Introduction
 we present Loco3D, a dataset of multi-person interactions in over 100 different indoor VR scenes, including 3D body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
