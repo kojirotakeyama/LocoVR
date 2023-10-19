@@ -1,9 +1,12 @@
 # Loco3D: Indoor Multiuser Locomotion 3D Dataset
+
+We present Loco3D, a dataset of multi-person interactions in over 100 different indoor VR scenes, including 3D body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
+For more information, please visit our [project page](https://sites.google.com/loco3d/).
+
  ![demo](./assets/scenes_in_loco3d_v3.png)
 
-## Introduction
-we present Loco3D, a dataset of multi-person interactions in over 100 different indoor VR scenes, including 3D body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
-For more information, please visit our [project page](https://sites.google.com/loco3d/).
+ - Blue and red curves depict two people's trajectories for one data collection session.
+ - All the scene data is derived from Habitat-Matterport [3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
 ## Demo Video
 
