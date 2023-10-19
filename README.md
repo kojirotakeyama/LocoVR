@@ -4,44 +4,52 @@
 ## Introduction
 
 This is the official repo of our paper.
-
 For more information, please visit our [project page](https://sites.google.com/loco3d/).
 
-## Demo
+## Demo Video
 
 A demo of our dataset:
 
+## Downloading Loco3D dataset
+Loco3D dataset can be downloaded from the following link.
+[Download Loco3D](https://).
 
-## Quickstart
+Structure of the dataset is described below.
+[Dataset structure](./dataset_structure/README.md)
 
-To setup the environment, firstly install the packages in requirements.txt:
+## Quick start
+Visualizing trajectories in 2D plane can be done by following instructions.
 
+1. Download Loco3D dataset
+   Download and unzip the dataset, then place it on the top directory of the git folder.
+   
+2. Install the packages in requirements.txt:
 ```
 pip install -r requirements.txt
 ```
-
+3. Visualize the trajectory
+   If you conduct vis_trajectory.py, you will get time-sereis trajectory images for the specified scene and experiment number.
 ```
-git clone --recursive https://github.com/erikwijmans/Pointnet2_PyTorch
-cd Pointnet2_PyTorch
-# [IMPORTANT] comment these two lines of code:
-#   https://github.com/erikwijmans/Pointnet2_PyTorch/blob/master/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/sampling_gpu.cu#L100-L101
-# [IMPORTANT] Also, you need to change l196-198 of file `[PATH-TO-VENV]/lib64/python3.8/site-packages/pointnet2_ops/pointnet2_modules.py` to `interpolated_feats = known_feats.repeat(1, 1, unknown.shape[1])`)
-pip install -r requirements.txt
-pip install -e .
+python vis_trajectory.py
 ```
+TIP: 
+To change the scene of visualization, edit "scene_id" and "exp_id" in the config.yaml.
+To change the map type, edit "map type" in the config.yaml. 
 
-Download and install [Vposer](https://github.com/nghorbani/human_body_prior), [SMPL-X](https://github.com/vchoutas/smplx)
+## Map generation
+All the 2D maps used in the "Quick start" are generated from Habitat Dataset.
+You can test generating maps following the instruction below.
 
+1. Download Habitat Dataset
+Download Habitat Dataset from the following link and place it on the top directory of the git folder.
+You will need to sign up your account for downloading the dataset.
+[Downloading Habitat Dataset](https://)
 
+2. Generate maps
+You can generate 2D maps from the Habitat Dataset conducting the code below.
 ```
-bash scripts/eval.sh
+python generate_map.py
 ```
-
-You can download the full dataset and have a test.
-
-
-### Dataset Structure & Visualization
-You can refer to [README](./demo_data/README.md) for details.
 
 ### Citation
 If you find this repo useful for your research, please consider citing:
