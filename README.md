@@ -53,5 +53,5 @@ You can generate 2D maps from the Habitat Dataset conducting the code below.
 python generate_map.py
 ```
 
-### Citation
+## Citation
 If you find this repo useful for your research, please consider citing:
