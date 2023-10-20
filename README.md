@@ -37,8 +37,8 @@ pip install -r requirements.txt
 python vis_trajectory.py
 ```
 TIP: 
-To change the scene of visualization, edit "scene_id" and "exp_id" in the config.yaml.
-To change the map type, edit "map type" in the config.yaml. 
+- To change the scene of visualization, edit "scene_id" and "exp_id" in the config.yaml.
+- To change the map type, edit "map type" in the config.yaml. 
 
 ## Map generation
 All the 2D maps used in the "Quick start" are generated from Habitat Dataset.
@@ -46,14 +46,21 @@ You can test generating maps following the instruction below.
 
 1. Download Habitat Dataset
 Download Habitat Dataset from the following link and place it on the top directory of the git folder.
-You will need to sign up your account for downloading the dataset.
-[Downloading Habitat Dataset](https://)
+To generate all the maps for trajectories included in Loco3D dataset, you need to download following datasets.
+[HM3DSem Train](https://api.matterport.com/resources/habitat/hm3d-train-semantic-annots-v0.2.tar)
+[HM3DSem Val](https://api.matterport.com/resources/habitat/hm3d-val-semantic-annots-v0.2.tar)
 
-2. Generate maps
+If you just need quick test for the code, you can do it with examples.
+[HM3DSem Example](https://github.com/matterport/habitat-matterport-3dresearch/blob/main/example/hm3d-example-semantic-annots-v0.2.tar)
+
+3. Generate maps
 You can generate 2D maps from the Habitat Dataset conducting the code below.
 ```
 python generate_map.py
 ```
+- To change the map type (binary, height, semantic), modify "map_type" in the config.yaml.
+- If you need to generate photo realistic textured map, download HM3D (including .obj) from the following link.
+  [HM3D](https://matterport.com/partners/facebook)
 
 ## Citation
 If you find this repo useful for your research, please consider citing:
