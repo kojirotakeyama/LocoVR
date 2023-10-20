@@ -25,7 +25,7 @@ Structure of the dataset is described below.
 Visualizing trajectories in 2D plane can be done by following instructions.
 
 1. Download Loco3D dataset
-   Download and unzip the dataset, then place it on the top directory of the git folder.
+   Download and unzip the dataset, then place it on the "Vis_trajectory" folder.
    
 2. Install the packages in requirements.txt:
 ```
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 3. Visualize the trajectory
    If you conduct vis_trajectory.py, you will get time-sereis trajectory images for the specified scene and experiment number.
 ```
-python ./Vis_trajectory/vis_trajectory.py
+python ./Vis_trajectory/vis_traj.py
 ```
 TIP: 
 - To change the scene of visualization, edit "scene_id" and "exp_id" in the config.yaml.
@@ -45,7 +45,7 @@ All the 2D maps used in the "Quick start" are generated from Habitat Dataset.
 You can test generating maps following the instruction below.
 
 1. Download Habitat Dataset
-Download Habitat Dataset from the following link and place it on the top directory of the git folder.
+Download Habitat Dataset from the following link and place it on the "Generate_map" folder.
 To generate all the maps for trajectories included in Loco3D dataset, you need to download following datasets.
 - [HM3DSem Train](https://api.matterport.com/resources/habitat/hm3d-train-semantic-annots-v0.2.tar)
 - [HM3DSem Val](https://api.matterport.com/resources/habitat/hm3d-val-semantic-annots-v0.2.tar)
