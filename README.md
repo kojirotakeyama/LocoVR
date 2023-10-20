@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 python ./Vis_trajectory/vis_traj.py
 ```
-TIP: 
+Tip: 
 - To change the scene of visualization, edit "scene_id" and "exp_id" in the config.yaml.
 - To change the map type, edit "map type" in the config.yaml. 
 
@@ -54,6 +54,7 @@ If you just need quick test for the code, you can do it with examples.
 ```
 python ./Generate_map/generate_map.py
 ```
+Tip: 
 - To change the map type (binary, height, semantic), modify "map_type" in the config.yaml.
 - If you need to generate photo realistic textured map, download HM3D (including .obj) from the following link.
   - [HM3D](https://matterport.com/partners/facebook)
