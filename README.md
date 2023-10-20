@@ -37,8 +37,8 @@ Tip:
 - To change the map type, edit "map type" in the config.yaml. 
 
 ## Map generation
-All the 2D maps used in the "Quick start" are generated from Habitat Dataset.
-You can test generating maps following the instruction below.
+All the 2D maps used in the "Quick start" are generated from HM3DSem Dataset.
+Following instruction will help you generating maps.
 
 1. Download Habitat Dataset
 Download Habitat Dataset from the following link and place it on the "Generate_map" folder.
