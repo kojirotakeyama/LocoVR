@@ -1,4 +1,3 @@
-#path_habitat: '/media/takeyama/T7/habitat dataset/'    #path of the folder that contains pickle files
 path_habitat: '../hm3d-train-semantic-annots-v0.2/'    #path of the folder that contains HM3DSem dataset
 size_m: 10    #size of the map in the world coordinate [m]
 size_px: 1024    #size of the map in the image coordinate [pixel]
