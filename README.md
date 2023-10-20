@@ -34,7 +34,7 @@ pip install -r requirements.txt
 3. Visualize the trajectory
    If you conduct vis_trajectory.py, you will get time-sereis trajectory images for the specified scene and experiment number.
 ```
-python vis_trajectory.py
+python ./Vis_trajectory/vis_trajectory.py
 ```
 TIP: 
 - To change the scene of visualization, edit "scene_id" and "exp_id" in the config.yaml.
@@ -56,7 +56,7 @@ If you just need quick test for the code, you can do it with examples.
 2. Generate maps
   You can generate 2D maps from the Habitat Dataset conducting the code below.
 ```
-python generate_map.py
+python ./Generate_map/generate_map.py
 ```
 - To change the map type (binary, height, semantic), modify "map_type" in the config.yaml.
 - If you need to generate photo realistic textured map, download HM3D (including .obj) from the following link.
