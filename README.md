@@ -8,10 +8,6 @@ For more information, please visit our [project page](https://sites.google.com/l
  - Blue and red curves depict two people's trajectories for one data collection session.
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
-## Demo Video
-
-A demo of our dataset:
-
 ## Downloading Loco3D dataset
 Loco3D dataset can be downloaded from the following link.
 
