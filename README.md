@@ -46,7 +46,7 @@ To generate all the maps for trajectories included in Loco3D dataset, you need t
 - [HM3DSem Train](https://api.matterport.com/resources/habitat/hm3d-train-semantic-annots-v0.2.tar)
 - [HM3DSem Val](https://api.matterport.com/resources/habitat/hm3d-val-semantic-annots-v0.2.tar)
 
-If you just need quick test for the code, you can do it with examples.
+If you just want to test the code, you can do it with small sample data.
 - [HM3DSem Example](https://github.com/matterport/habitat-matterport-3dresearch/blob/main/example/hm3d-example-semantic-annots-v0.2.tar)
 
 2. Generate maps
