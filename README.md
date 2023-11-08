@@ -15,7 +15,7 @@ Loco3D dataset can be downloaded from the following link.
 
 Structure of the dataset is described below.
 
-[Dataset structure](./dataset_structure/README.md)
+[Dataset contents](./dataset_contents/README.md)
 
 ## Quick start
 Visualizing trajectories in 2D plane can be done by following instructions.
