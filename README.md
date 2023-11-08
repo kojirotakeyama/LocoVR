@@ -11,7 +11,7 @@ For more information, please visit our [project page](https://sites.google.com/v
 ## Downloading Loco3D dataset
 Loco3D dataset can be downloaded from the following link.
 
-[Download Loco3D](https://drive.google.com/drive/folders/1ag4C1sx1D71PVoOQrtzzHmDmh9MXBHv-?usp=sharing).
+[Download Loco3D](https://drive.google.com/drive/folders/1CjKG5I8tFjLnlJTowU1tLpUSGp82yPR4?usp=sharing).
 
 Structure of the dataset is described below.
 
