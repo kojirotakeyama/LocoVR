@@ -1,9 +1,0 @@
-path_pickle: './Loco3D'    #path of the folder that contains pickle files
-path_map: './Map'    #path of the folder that contains map files
-path_center: './boundary.txt'    #path of the file that contains image center coordinates
-
-size_m: 10    #size of the map in the world coordinate [m]
-size_px: 1024    #size of the map in the image coordinate [pixel]
-
-scene_id: 23    #scene id to visualize
-exp_id: 0    #experiment id to visualize
