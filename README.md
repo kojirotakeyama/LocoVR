@@ -1,6 +1,6 @@
-# Loco3D: Indoor Multiuser Locomotion 3D Dataset
+# LocoVR: Multiuser Indoor Locomotion Dataset
 
-We present Loco3D, a dataset of multi-person interactions in over 100 different indoor VR scenes, including 3D body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
+We present Loco3D, a dataset of multi-person interactions in over 130 different indoor VR scenes, including 3D body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
 For more information, please visit our [project page](https://sites.google.com/view/loco3d/home).
 
  ![demo](./assets/scenes_in_loco3d_v3.png)
@@ -8,10 +8,10 @@ For more information, please visit our [project page](https://sites.google.com/v
  - Blue and red curves depict two people's trajectories for one data collection session.
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
-## Downloading Loco3D dataset
+## Downloading LocoVR dataset
 Loco3D dataset can be downloaded from the following link.
 
-[Download Loco3D](https://drive.google.com/drive/folders/1CjKG5I8tFjLnlJTowU1tLpUSGp82yPR4?usp=sharing).
+[Download LocoVR](https://drive.google.com/drive/folders/1CjKG5I8tFjLnlJTowU1tLpUSGp82yPR4?usp=sharing).
 
 Structure of the dataset is described below.
 
@@ -20,7 +20,7 @@ Structure of the dataset is described below.
 ## Quick start
 Visualizing trajectories in 2D plane can be done by following instructions.
 
-1. Download Loco3D dataset
+1. Download LocoVR dataset
    Download and unzip the dataset, then place it on the "Vis_trajectory" folder.
    
 2. Install the packages in requirements.txt:
