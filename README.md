@@ -11,7 +11,7 @@ For more information, please visit our [project page](https://sites.google.com/v
 ## Downloading LocoVR dataset
 Loco3D dataset can be downloaded from the following link.
 
-[Download LocoVR](https://drive.google.com/drive/folders/1CjKG5I8tFjLnlJTowU1tLpUSGp82yPR4?usp=sharing).
+[Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
 
 Structure of the dataset is described below.
 
@@ -21,20 +21,26 @@ Structure of the dataset is described below.
 Visualizing trajectories in 2D plane can be done by following instructions.
 
 1. Download LocoVR dataset
-   Download and unzip the dataset, then place it on the "Vis_trajectory" folder.
-   
-2. Install the packages in requirements.txt:
+   Download the dataset from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
+   [Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
+
+3. Download map images
+   Download the map data from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
+   [Download LocoVR](https://drive.google.com/drive/folders/1g4QO8WV4hfHFgCzfBLTi42zCJ6km7JoH?usp=drive_link)
+     
+4. Install the packages in requirements.txt:
 ```
 pip install -r requirements.txt
 ```
-3. Visualize the trajectory
-   If you conduct vis_trajectory.py, you will get time-sereis trajectory images for the specified scene and experiment number.
+4. Visualize the trajectory
+   If you conduct vis_trajectory.py, you will get time-sereis trajectory images of the specified scenes.
 ```
-python ./Vis_trajectory/vis_traj.py
+python ./visualize_trajectory/vis_traj.py
 ```
 Tip: 
 - To change the scene of visualization, edit "scene_id" and "exp_id" in the config.yaml.
-- To change the map type, edit "map type" in the config.yaml. 
+- To change the map type, edit "map type" in the config.yaml.
+- To change the type of visualizing trajectory, edit "type_viz" to "waist" or "body".
 
 ## Map generation
 All the 2D maps used in the "Quick start" are generated from HM3DSem Dataset.
