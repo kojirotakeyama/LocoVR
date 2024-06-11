@@ -26,7 +26,7 @@ Visualizing trajectories in 2D plane can be done by following instructions.
 
 3. Download map images
    Download the map data from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
-   [Download LocoVR](https://drive.google.com/drive/folders/1g4QO8WV4hfHFgCzfBLTi42zCJ6km7JoH?usp=drive_link)
+   [Download Map images](https://drive.google.com/drive/folders/1g4QO8WV4hfHFgCzfBLTi42zCJ6km7JoH?usp=drive_link)
      
 4. Install the packages in requirements.txt:
 ```
