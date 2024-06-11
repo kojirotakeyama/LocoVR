@@ -1,0 +1,10 @@
+path_pickle: './LocoVR/'    #path of the folder that contains pickle files
+path_map: './Maps/texture_map'    #path of the folder that contains map files
+path_boundary: './boundary.txt'    #path of the file that contains image boundary coordinates
+
+size_m: 10    #size of the map in the world coordinate [m]
+size_px: 1024    #size of the map in the image coordinate [pixel]
+
+scene_id: [444,525] #scene id to visualize
+
+type_viz: 'body'    #'waist' shows waist position with direction, 'body' shows motion of feet and hands
