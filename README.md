@@ -39,7 +39,7 @@ pip install -r requirements.txt
 python ./visualize_trajectory/vis_traj.py
 ```
 Tip: 
-- To change the scene of visualization, edit "scene_id" and "exp_id" in the config.yaml.
+- To change the scene of visualization, edit "scene_id" in the config.yaml. You can choose multiple scenes with a list style.
 - To change the map type, edit "map type" in the config.yaml.
 - To change the type of visualizing trajectory, edit "type_viz" to "waist" or "body".
 
