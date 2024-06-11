@@ -9,7 +9,7 @@ For more information, please visit our [project page](https://sites.google.com/v
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
 ## Downloading LocoVR dataset
-Loco3D dataset can be downloaded from the following link.
+Loco3D dataset can be downloaded from the following link. 
 
 [Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
 
@@ -21,11 +21,11 @@ Structure of the dataset is described below.
 Visualizing trajectories in 2D plane can be done by following instructions.
 
 1. Download LocoVR dataset
-   Download the dataset from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
+   Download the folder "LocoVR" from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
    [Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
 
 3. Download map images
-   Download the map data from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
+   Download the foloder "Maps" from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
    [Download map images](https://drive.google.com/drive/folders/1g4QO8WV4hfHFgCzfBLTi42zCJ6km7JoH?usp=drive_link)
      
 4. Install the packages in requirements.txt:
