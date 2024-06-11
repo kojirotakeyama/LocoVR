@@ -1,8 +1,0 @@
-path_habitat: './hm3d-train-semantic-annots-v0.2/'    #path of the folder that contains HM3DSem dataset
-#path_habitat: './hm3d-val-semantic-annots-v0.2/'    #path of the folder that contains HM3DSem dataset
-
-size_m: 10    #size of the map in the world coordinate [m]
-size_px: 1024    #size of the map in the image coordinate [pixel]
-
-flag_binary: 1    #flag to generate binary map
-flag_height: 0    #flag to generate height map
