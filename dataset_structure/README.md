@@ -19,5 +19,5 @@ This contains the 3D position of the goal in a numpy array, using the world coor
 These contain position and pose data captured by the HTC VIVE motion tracker system. "pos" includes 3D position data, and "pose" includes 4D quaternion data. Both are represented in the world coordinate system of HM3D, using a numpy array format.
 
 <center>
- <img src="../assets/Dataset structure.png" alt="structure" width="800">
+ <img src="../assets/Dataset structure.png" alt="structure" width="600">
 </center>
