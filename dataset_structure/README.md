@@ -4,7 +4,7 @@ Following figure shows the structure of LocoVR. The data for each scene is store
 
 The motion data for p1 and p2 includes full body motion data: head, waist, right hand, left hand, right foot, and left foot. Each body part has a 3D position and a 4D quaternion in the world coordinate system of HM3D. See the sample code on the main page on the repo to learn how HM3D and LocoVR are aligned to the same coordinate system. 
 
-Futher deitals of the variables are described below.
+Further details of the variables are described below.
 
 **['scene_id']**
 This corresponds to the number in the scene names of HM3D, which is also the name of the pickle file.
