@@ -15,8 +15,8 @@ For more information, please visit our [project page](https://sites.google.com/v
 LocoVR dataset is accessible from the following download link. 
 [Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
 
-LocoVR is provided with Python pickle files. Detailed structure of the dataset is described below.
-[Dataset contents](./dataset_contents/README.md)
+LocoVR is provided with Python pickle files. Detailed contents of the dataset is described below.
+[Contents of the dataset](./dataset_contents/README.md)
 
 ## Quick start
 Quick visualization of the trajectories contained in LocoVR is done by the following instructions.
