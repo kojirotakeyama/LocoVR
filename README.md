@@ -1,4 +1,4 @@
-# LocoVR: Multiuser Indoor Locomotion Dataset using Virtual Reality
+# LocoVR: Multiuser Indoor Locomotion Dataset in Virtual Reality
 
 We present LocoVR, a dataset of multi-person interactions in over 130 different indoor VR scenes, including 3D body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
 For more information, please visit our [project page](https://sites.google.com/view/loco3d/home).
