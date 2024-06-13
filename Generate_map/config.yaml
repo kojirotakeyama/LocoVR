@@ -1,0 +1,9 @@
+path_habitat: '/hm3d-train/    #path of the folder that contains HM3D dataset (you don't need this if the flag_texture=0)
+path_habitat_sem: './hm3d-train-semantic-annots-v0.2/'    #path of the folder that contains HM3DSem dataset
+size_m: 10    #size of the map in the world coordinate [m]
+size_px: 1024    #size of the map in the image coordinate [pixel]
+
+flag_binary: 1    #flag to generate binary map
+flag_semantic: 1    #flag to generate semantic map
+flag_height: 1    #flag to generate height map
+flag_texture: 0    #flag to generate texture map (you need the path to HM3D dataset if the flag_texture=1)
