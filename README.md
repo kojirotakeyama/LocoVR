@@ -46,7 +46,7 @@ All the 2D maps provided in the "Quick start" are generated basd on HM3DSem data
 Following instruction will help you generating the maps.
 
 1. Download Habitat Dataset
-Download Habitat Dataset from the following link and place it on the top of the "Generate_map" folder.
+Download Habitat Dataset from the following link and place it on the directory you specified on the config.yaml.
 To generate the maps, download HM3DSem datasets (hm3d-train-semantic-annots-v0.2.tar/hm3d-val-semantic-annots-v0.2.tar) from the following link.
 - [HM3DSem](https://github.com/matterport/habitat-matterport-3dresearch/tree/main)
 
