@@ -7,8 +7,6 @@ For more information, please visit our [project page](https://sites.google.com/v
  <img src="./Overview.png" alt="demo" width="800">
 </center>
 
-<--![Demo](assets/Overview.png)-->
-
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
 ## Downloading LocoVR dataset
