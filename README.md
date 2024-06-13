@@ -47,12 +47,10 @@ Following instruction will help you generating the maps.
 
 1. Download Habitat Dataset
 Download Habitat Dataset from the following link and place it on the top of the "Generate_map" folder.
-To generate the maps, download HM3DSem dataset from the following links.
-- [HM3DSem Train](https://api.matterport.com/resources/habitat/hm3d-train-semantic-annots-v0.2.tar)
-- [HM3DSem Val](https://api.matterport.com/resources/habitat/hm3d-val-semantic-annots-v0.2.tar)
+To generate the maps, download HM3DSem datasets (hm3d-train-semantic-annots-v0.2.tar/hm3d-val-semantic-annots-v0.2.tar) from the following link.
+- [HM3DSem](https://github.com/matterport/habitat-matterport-3dresearch/tree/main)
 
-If you just want to test the map generation code, you can do it with small sample data.
-- [HM3DSem Example](https://github.com/matterport/habitat-matterport-3dresearch/blob/main/example/hm3d-example-semantic-annots-v0.2.tar)
+If you just want to test the map generation code, you can do it with small sample data: hm3d-example-semantic-annots-v0.2.tar
 
 2. Generate maps
   You can generate 2D maps from the HM3DSem Dataset through running generate_map.py as follows.
