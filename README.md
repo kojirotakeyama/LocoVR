@@ -26,7 +26,7 @@ Quick visualization of the trajectories contained in LocoVR is done by the follo
    Download the foloder "Maps" from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
    [Download map images](https://drive.google.com/drive/folders/1g4QO8WV4hfHFgCzfBLTi42zCJ6km7JoH?usp=drive_link)
      
-4. Install the packages in requirements.txt:
+4. Install the packages in requirements.txt (python==3.8.1, cuda12.1):
 ```
 pip install -r requirements.txt
 ```
