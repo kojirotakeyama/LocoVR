@@ -10,7 +10,7 @@ We present LocoVR, a dataset of multi-person interactions in over 130 different 
 
 ## Downloading LocoVR dataset
 LocoVR dataset is accessible from the following download link. 
-[Download LocoVR](https://drive.google.com/drive/folders/1wH07fa-QMQrwkqMgydj38BuwiX7lagk0?usp=drive_link)
+[Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
 
 
 LocoVR is provided with Python pickle files. Detailed contents of the dataset is described below.
@@ -25,7 +25,7 @@ Quick visualization of the trajectories contained in LocoVR is done by the follo
 
 3. Download map images
    Download the foloder "Maps" from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
-   [Download map images](https://drive.google.com/drive/folders/1g4QO8WV4hfHFgCzfBLTi42zCJ6km7JoH?usp=drive_link)
+   [Download map images](https://drive.google.com/drive/folders/1bUT8aHKJmPwvhUFINHDCNmgfyR1vT33G?usp=sharing)
      
 4. Install the packages in requirements.txt (python==3.8.1, cuda12.1):
 ```
