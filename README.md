@@ -10,7 +10,8 @@ We present LocoVR, a dataset of multi-person interactions in over 130 different 
 
 ## Downloading LocoVR dataset
 LocoVR dataset is accessible from the following download link. 
-[Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
+[Download LocoVR](https://drive.google.com/drive/folders/1wH07fa-QMQrwkqMgydj38BuwiX7lagk0?usp=drive_link)
+
 
 LocoVR is provided with Python pickle files. Detailed contents of the dataset is described below.
 [Contents of the dataset](./dataset_contents/README.md)
