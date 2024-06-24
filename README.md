@@ -62,6 +62,9 @@ Tips:
 - If you need to generate photo realistic texture map, download HM3D (including .obj) from the following link.
   - [HM3D](https://matterport.com/partners/facebook)
 
+## Evaluation codes for NeurIPS2024
+Evaluation code and data for NeurIPS2024 is available at [NeurIPS2024](https://anonymous.4open.science/r/NeurIPS2024-1FD1/README.md)
+
 ## Citation
 If you find this repo useful for your research, please consider citing:
 
