@@ -10,7 +10,7 @@ We present LocoVR, a dataset of multi-person interactions in over 130 different 
 
 ## Downloading LocoVR dataset
 LocoVR dataset is accessible from the following download link. 
-[Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
+[Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
 
 
 LocoVR is provided with Python pickle files. Detailed contents of the dataset is described below.
@@ -21,7 +21,7 @@ Quick visualization of the trajectories contained in LocoVR is done by the follo
 
 1. Download LocoVR dataset
    Download the folder "LocoVR" from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
-   [Download LocoVR](https://drive.google.com/drive/folders/1wU82rCurMfYkCV7TvSPcSVslW79Mj7Pp?usp=drive_link)
+   [Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
 
 3. Download map images
    Download the foloder "Maps" from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
