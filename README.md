@@ -13,9 +13,6 @@ We present LocoVR, a dataset of two-person interactions in over 130 different in
 -->
 ![Overview](./Overview.png)
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
- - 
-## Evaluation codes for ICLR2025
-Evaluation code and data for ICLR2025 is available at [ICLR2025](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
 
 ## Downloading LocoVR dataset
 LocoVR dataset is accessible from the following download link. 
@@ -70,6 +67,9 @@ Tips:
 - To change the map type (binary, height, semantic, texture), modify "map_type" in the config.yaml.
 - If you need to generate photo realistic texture map, download HM3D (including .obj) from the following link.
   - [HM3D](https://matterport.com/partners/facebook)
+
+## Evaluation codes for ICLR2025
+Evaluation code and data for ICLR2025 is available at [ICLR2025](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
 
 ## Citation
 If you find this repo useful for your research, please consider citing:
