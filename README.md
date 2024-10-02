@@ -1,13 +1,17 @@
 # LocoVR: Multiuser Indoor Locomotion Dataset in Virtual Reality
 
-We present LocoVR, a dataset of multi-person interactions in over 130 different indoor VR scenes, including 3D body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
+We present LocoVR, a dataset of two-person interactions in over 130 different indoor VR scenes, including full body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
+
 <!--
 <center>
- <img src="./Overview.png" alt="Overview" width="800">
+ <img src="./Overview.png" alt="Overview" width="600">
 </center>
 -->
 ![Overview](./Overview.png)
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
+ - 
+## Evaluation codes for ICLR2025
+Evaluation code and data for ICLR2025 is available at [ICLR2025](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
 
 ## Downloading LocoVR dataset
 LocoVR dataset is accessible from the following download link. 
@@ -62,9 +66,6 @@ Tips:
 - To change the map type (binary, height, semantic, texture), modify "map_type" in the config.yaml.
 - If you need to generate photo realistic texture map, download HM3D (including .obj) from the following link.
   - [HM3D](https://matterport.com/partners/facebook)
-
-## Evaluation codes for NeurIPS2024
-Evaluation code and data for NeurIPS2024 is available at [NeurIPS2024](https://anonymous.4open.science/r/NeurIPS2024-1FD1/README.md)
 
 ## Citation
 If you find this repo useful for your research, please consider citing:
