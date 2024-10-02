@@ -2,6 +2,9 @@
 
 We present LocoVR, a dataset of two-person interactions in over 130 different indoor VR scenes, including full body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
 
+[Evaluation code and data for ICLR2025 is available at this link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
+[Video is available at this link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
+
 <!--
 <center>
  <img src="./Overview.png" alt="Overview" width="600">
