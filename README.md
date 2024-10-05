@@ -2,7 +2,7 @@
 
 We present LocoVR, a dataset of two-person interactions in over 130 different indoor VR scenes, including full body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
 
-[Evaluation code and data for ICLR2025 is available at this link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
+[Evaluation code and data for the main paper is available at this link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
 
 [Our project website is accessible from this link](https://anonymous.4open.science/r/LocoVR-1B87/README.md)
 
@@ -68,8 +68,8 @@ Tips:
 - If you need to generate photo realistic texture map, download HM3D (including .obj) from the following link.
   - [HM3D](https://matterport.com/partners/facebook)
 
-## Evaluation codes for ICLR2025
-Evaluation code and data for ICLR2025 is available at [ICLR2025](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
+## Evaluation codes for the main paper
+Evaluation code and data for the main paper is available at this [link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
 
 ## Citation
 If you find this repo useful for your research, please consider citing:
