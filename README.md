@@ -4,7 +4,7 @@ We present LocoVR, a dataset of two-person interactions in over 130 different in
 
 [Evaluation code and data for the main paper is available at this link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
 
-[Our project website is accessible from this link](https://anonymous.4open.science/r/LocoVR-1B87/README.md)
+[Our project website is accessible from this link](https://sites.google.com/view/locovr?usp=sharing)
 
 <!--
 <center>
