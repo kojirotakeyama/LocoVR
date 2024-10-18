@@ -79,7 +79,7 @@ LocoReal dataset is accessible from the following download link.
 [Download LocoReal](https://drive.google.com/drive/folders/1C7VANAopABgg_NgfvWAryb5NmcBgawbL?usp=sharing)
 
 ### 2.2 Quick start (visualization)
-1. Go to the LocoReal folder downloaded at the above link.
+1. Go to the "LocoReal" folder downloaded from the above link.
 2. Install the packages in requirements.txt (python==3.8.1, cuda12.1):
 ```
 pip install -r requirements.txt
@@ -89,6 +89,12 @@ pip install -r requirements.txt
 ```
 python ./vis_traj.py
 ```
+## 3 Test Code
+Here we provide the test code of global path prediction. This task estimates a static global path from a starting point to a goal location, which can be used to predict human global paths or plan human-like global paths for robots. Our dataset demonstrates the ability to learn such human-like paths that consider obstacle avoidance, efficiency, and social motion behaviors, such as maintaining social distance when passing or choosing longer routes to avoid collisions. The input includes the past trajectories of two people, p1 and p2 (length=1.0s, interval=0.067s), past heading directions of p1 and p2 (length=1.0s, interval=0.067s), scene map, and goal position. The output is a static path from the start to the goal.
+
+### 3.1 Downloading the code and input data
+The test code with the input data are accessible from the following download link.
+T.B.D.
 
 ## Evaluation codes for the main paper
 Evaluation code and data for the main paper is available at this [link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
