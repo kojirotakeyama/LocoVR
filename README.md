@@ -14,7 +14,8 @@ We present LocoVR, a dataset of two-person interactions in over 130 different in
 ![Overview](./Overview.png)
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
-## Downloading LocoVR dataset
+## LocoVR Dataset
+### Downloading LocoVR dataset
 LocoVR dataset is accessible from the following download link. 
 [Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
 
@@ -22,7 +23,7 @@ LocoVR dataset is accessible from the following download link.
 LocoVR is provided with Python pickle files. Detailed contents of the dataset is described below.
 [Contents of the dataset](./dataset_structure/README.md)
 
-## Quick start
+### Quick start
 Quick visualization of the trajectories contained in LocoVR is done by the following instructions.
 
 1. Download LocoVR dataset
@@ -46,6 +47,8 @@ Tips:
 - To change the scene of visualization, edit "scene_id" in the config.yaml. You can choose multiple scenes with a list style.
 - To change the map type, edit "map type" in the config.yaml.
 - To change the type of visualizing trajectory, edit "type_viz" to "waist" or "body".
+- 
+## LocoReal Dataset
 
 ## Map generation
 All the 2D maps provided in the "Quick start" are generated basd on HM3DSem datasets.
