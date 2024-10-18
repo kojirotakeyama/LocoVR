@@ -15,7 +15,7 @@ We present LocoVR, a dataset of two-person interactions in over 130 different in
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
 ## 1. LocoVR Dataset
-### Downloading LocoVR dataset
+### 1.1 Downloading LocoVR dataset
 LocoVR dataset is accessible from the following download link. 
 [Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
 
@@ -23,7 +23,7 @@ LocoVR dataset is accessible from the following download link.
 LocoVR is provided with Python pickle files. Detailed contents of the dataset is described below.
 [Contents of the dataset](./dataset_structure/README.md)
 
-### Quick start (visualization)
+### 1.2 Quick start (visualization)
 Quick visualization of the trajectories contained in LocoVR is done by the following instructions.
 
 1. Download LocoVR dataset
@@ -48,7 +48,7 @@ Tips:
 - To change the map type, edit "map type" in the config.yaml.
 - To change the type of visualizing trajectory, edit "type_viz" to "waist" or "body".
 
-### Map generation (optional)
+### 1.3 Map generation (optional)
 All the 2D maps provided in the "Quick start" are generated basd on HM3DSem datasets.
 Following instruction will help you generating the maps.
 
@@ -74,11 +74,11 @@ Although LocoVR is collected in highly realistic virtual environments and is use
 
 The real-world human trajectory data collection took place in an empty room within a campus building. Two participants performed a task in the room, where several pieces of furniture were arranged, and their 3D motions and trajectories were captured using a motion capture system. The experiment involved 5 participants across 4 different room layouts, resulting in a total of 430 collected trajectories. The data structure of LocoReal is the same as that of LocoVR.
 
-### Downloading LocoReal dataset
+### 2.1 Downloading LocoReal dataset
 LocoReal dataset is accessible from the following download link. 
 [Download LocoReal](https://drive.google.com/drive/folders/1C7VANAopABgg_NgfvWAryb5NmcBgawbL?usp=sharing)
 
-### Quick start (visualization)
+### 2.2 Quick start (visualization)
 1. Go to the LocoReal folder downloaded at the above link.
 2. Install the packages in requirements.txt (python==3.8.1, cuda12.1):
 ```
