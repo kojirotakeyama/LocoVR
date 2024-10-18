@@ -14,7 +14,7 @@ We present LocoVR, a dataset of two-person interactions in over 130 different in
 ![Overview](./Overview.png)
  - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
-## LocoVR Dataset
+## 1. LocoVR Dataset
 ### Downloading LocoVR dataset
 LocoVR dataset is accessible from the following download link. 
 [Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
@@ -47,10 +47,8 @@ Tips:
 - To change the scene of visualization, edit "scene_id" in the config.yaml. You can choose multiple scenes with a list style.
 - To change the map type, edit "map type" in the config.yaml.
 - To change the type of visualizing trajectory, edit "type_viz" to "waist" or "body".
-- 
-## LocoReal Dataset
 
-## Map generation
+### Map generation (optional)
 All the 2D maps provided in the "Quick start" are generated basd on HM3DSem datasets.
 Following instruction will help you generating the maps.
 
@@ -70,6 +68,15 @@ Tips:
 - To change the map type (binary, height, semantic, texture), modify "map_type" in the config.yaml.
 - If you need to generate photo realistic texture map, download HM3D (including .obj) from the following link.
   - [HM3D](https://matterport.com/partners/facebook)
+  - 
+## 2. LocoReal Dataset
+LocoReal is a small scale dataset collected in the physical space.
+
+
+### Downloading LocoReal dataset
+LocoReal dataset is accessible from the following download link. 
+[Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
+
 
 ## Evaluation codes for the main paper
 Evaluation code and data for the main paper is available at this [link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
