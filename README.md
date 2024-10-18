@@ -23,7 +23,7 @@ LocoVR dataset is accessible from the following download link.
 LocoVR is provided with Python pickle files. Detailed contents of the dataset is described below.
 [Contents of the dataset](./dataset_structure/README.md)
 
-### Quick start
+### Quick start (visualization)
 Quick visualization of the trajectories contained in LocoVR is done by the following instructions.
 
 1. Download LocoVR dataset
@@ -70,13 +70,25 @@ Tips:
   - [HM3D](https://matterport.com/partners/facebook)
   - 
 ## 2. LocoReal Dataset
-LocoReal is a small scale dataset collected in the physical space.
+Although LocoVR is collected in highly realistic virtual environments and is useful for learning human trajectories in relation to the surrounding environment, there remains a general concern regarding potential differences in human perception between physical and virtual spaces, which could lead to performance degradation when transferring models from virtual to real-world scenarios. To mitigate this concern, we developed LocoReal, a human trajectory dataset collected in physical space, which serves as test data to demonstrate that models trained on LocoVR can be effectively applied in real-world environments.
 
+The real-world human trajectory data collection took place in an empty room within a campus building. Two participants performed a task in the room, where several pieces of furniture were arranged, and their 3D motions and trajectories were captured using a motion capture system. The experiment involved 5 participants across 4 different room layouts, resulting in a total of 430 collected trajectories. The data structure of LocoReal is the same as that of LocoVR.
 
 ### Downloading LocoReal dataset
 LocoReal dataset is accessible from the following download link. 
-[Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
+[Download LocoReal](https://drive.google.com/drive/folders/1C7VANAopABgg_NgfvWAryb5NmcBgawbL?usp=sharing)
 
+### Quick start (visualization)
+1. Go to the LocoReal folder downloaded at the above link.
+2. Install the packages in requirements.txt (python==3.8.1, cuda12.1):
+```
+pip install -r requirements.txt
+```
+3. Visualize the trajectories
+   If you conduct vis_trajectory.py, you will get time-sereis trajectory images of trajectories in 4 scenes contained in the LocoReal.
+```
+python ./vis_traj.py
+```
 
 ## Evaluation codes for the main paper
 Evaluation code and data for the main paper is available at this [link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
