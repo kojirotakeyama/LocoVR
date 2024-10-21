@@ -94,7 +94,19 @@ Here we provide the test code of global path prediction. This task estimates a s
 
 ### 3.1 Downloading the code and input data
 The test code with the input data are accessible from the following download link.
-T.B.D.
+[Download TestCode](https://drive.google.com/drive/folders/10ILf7YTiznbzh5pc8CiHkP3Cvlz5Kt_0?usp=sharing)
+
+### 3.2 Quick start (Global path prediction and visualization)
+1. Go to the "GlobalPathPrediction_testcode" folder downloaded from the above link.
+2. Install the packages in requirements.txt (python==3.8.1, cuda12.1):
+```
+pip install -r requirements.txt
+```
+3. Run the code to predict global path and visualize the result
+   If you conduct run.py, the model predicts global path and you will get time-series images of predicted global path (red) and groundtruth path (green)
+```
+python ./run.py
+```
 
 ## Evaluation codes for the main paper
 Evaluation code and data for the main paper is available at this [link](https://anonymous.4open.science/r/LocoVR_code_test-08E6/README.md)
