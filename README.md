@@ -104,7 +104,7 @@ The test code with the input data are accessible from the following download lin
 pip install -r requirements.txt
 ```
 3. Run the code to predict global path and visualize the result
-   If you conduct run.py, the model predicts global path and you will get time-series images of predicted global path (red) and groundtruth path (green)
+   If you conduct run.py, the model predicts global path and you will get time-series images of predicted global path (red) and groundtruth path (green) in the "./result" folder.
 ```
 python ./run.py
 ```
