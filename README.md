@@ -89,9 +89,11 @@ pip install -r requirements.txt
 ```
 python ./vis_traj.py
 ```
-## 3 Test Code
-Here we provide the test code of global path prediction. This task estimates a static global path from a starting point to a goal location, which can be used to predict human global paths or plan human-like global paths for robots. Our dataset demonstrates the ability to learn such human-like paths that consider obstacle avoidance, efficiency, and social motion behaviors, such as maintaining social distance when passing or choosing longer routes to avoid collisions. The input includes the past trajectories of two people, p1 and p2 (length=1.0s, interval=0.067s), past heading directions of p1 and p2 (length=1.0s, interval=0.067s), scene map, and goal position. The output is a static path from the start to the goal.
+## 3 Test Code for global path prediction
+Here we provide the test code for global path prediction. This task estimates a static global path from a starting point to a goal location, which can be used to predict human global paths or plan human-like global paths for robots. Our dataset demonstrates the ability to learn such human-like paths that consider obstacle avoidance, efficiency, and social motion behaviors, such as maintaining social distance when passing or choosing longer routes to avoid collisions. The input includes the past trajectories of two people, p1 and p2 (length=1.0s, interval=0.067s), past heading directions of p1 and p2 (length=1.0s, interval=0.067s), scene map, and goal position. The output is a static path from the start to the goal.
 Here we provide the model trained by LocoVR, test code and the input data (LocoReal) to evaluate the model.
+
+![Global path prediction](./GlobalPathPrediction.gif)
 
 ### 3.1 Downloading the code and input data
 The test code with the input data are accessible from the following download link.
